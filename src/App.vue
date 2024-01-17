@@ -22,7 +22,7 @@ export default {
 }
 
 body {
-  max-width: 1400px;
+  max-width: 144rem;
   margin: 0 auto;
 }
 
