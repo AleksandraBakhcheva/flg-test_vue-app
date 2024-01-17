@@ -1,6 +1,6 @@
-# MD select reports
+# FLG app
 
-App with displaying tabular reports based on server data received
+App with displaying cards + Bored API activities 
 
 ## Stack
 
@@ -27,9 +27,3 @@ npm run serve
 
 Aleksandra Bakhcheva<br>
 [@AleksandraBakhcheva](https://github.com/AleksandraBakhcheva)
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
