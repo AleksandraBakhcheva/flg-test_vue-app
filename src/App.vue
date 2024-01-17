@@ -27,9 +27,6 @@ body {
 }
 
 #app {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
