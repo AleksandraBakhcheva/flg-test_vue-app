@@ -12,12 +12,12 @@ export default {
   name: "FooterView",
   data() {
     return {
-      activity: "hhjgj",
+      activity: "",
     };
   },
   methods: {
-    fetchData() {
-      fetch("https://www.boredapi.com/api/activity", {
+    async fetchData() {
+      await fetch("https://www.boredapi.com/api/activity", {
         method: "GET",
         headers: {
           "Content-type": "application/json",
@@ -32,6 +32,9 @@ export default {
           console.error(err);
         });
     },
+  },
+  mounted() {
+    this.fetchData();
   },
 };
 </script>
