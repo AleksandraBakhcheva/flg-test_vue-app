@@ -70,5 +70,19 @@ span {
 
 button {
   height: 50px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-width: 0;
+  cursor: pointer;
+  transition: all 200ms;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+  color: #000000;
+  background-color: #f7d966;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #f7d85b;
 }
 </style>
